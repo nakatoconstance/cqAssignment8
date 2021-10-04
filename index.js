@@ -33,6 +33,15 @@ var handle_data = function (func) {
 console.log(handle_data(add));       
 console.log(handle_data(subtract));  
 //The arrow function
-// equivalent to the sum function above
-let addition=(x,y)=>x+y
-console.log(addition(10, 20)); // 30;
+
+let concatenateNames=(firstName,lastName)=>{
+ let fullName= firstName + "  " + lastName;
+ console.log(fullName);
+
+}
+console.log(concatenateNames(' Nakato', 'Constance')); 
+
+// loop
+for(ug=1;ug<20;ug+=1){
+    console.log( "I love uganda");
+}
